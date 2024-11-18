@@ -1,5 +1,5 @@
 const email = prompt('Inserisci la tua mail')
-const emailList = ['matteo@boolean.it', 'email2@boolean.it']
+const emailList = ['matteo@boolean.it', 'massimo@ermejo.it', 'simo@email.com']
 const isEmailVerified = emailList.includes(email)
 const isEmailAnEmail = email.includes('@')
 console.log(emailList, isEmailVerified);
@@ -31,4 +31,3 @@ if (randomNumber1 > randomNumber2) {
 } else {
   winnerMessage = alert('Pareggio')
 }
-
