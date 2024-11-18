@@ -25,12 +25,10 @@ console.log(randomNumber1, randomNumber2)
 
 let winnerMessage;
 if (randomNumber1 > randomNumber2) {
-  winnerMessage = 'Il giocatore ha vinto!'
+  winnerMessage = alert('Il giocatore ha vinto!')
 } else if (randomNumber2 > randomNumber1) {
-  winnerMessage = 'La CPU ha vinto!'
+  winnerMessage = alert('La CPU ha vinto!')
 } else {
-  winnerMessage = 'Pareggio'
+  winnerMessage = alert('Pareggio')
 }
-
-console.log(winnerMessage);
 
