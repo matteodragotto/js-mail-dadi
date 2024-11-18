@@ -14,3 +14,8 @@ if (isEmailVerified === true) {
 
 console.log(messageVerified);
 
+const randomNumber = Math.random() * 100
+const playerNumber = prompt('Il tuo numero è ${randomNumber}')
+const cpuNumber = prompt('Il numero della CPU è ${randomNumber}')
+
+
